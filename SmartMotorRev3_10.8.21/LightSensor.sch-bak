@@ -1,0 +1,88 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 110990030:110990030 J1
+U 1 1 60CD7EB0
+P 4850 2650
+F 0 "J1" H 5080 2646 50  0000 L CNN
+F 1 "110990030" H 5080 2555 50  0000 L CNN
+F 2 "110990030(2):SEEED_110990030" H 4850 2650 50  0001 L BNN
+F 3 "" H 4850 2650 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 4850 2650 50  0001 L BNN "STANDARD"
+F 5 "8.1mm" H 4850 2650 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "A" H 4850 2650 50  0001 L BNN "PARTREV"
+F 7 "Seeed Technology" H 4850 2650 50  0001 L BNN "MANUFACTURER"
+	1    4850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R1
+U 1 1 60CB8C65
+P 6000 2500
+F 0 "R1" V 5675 2500 50  0000 C CNN
+F 1 "R_PHOTO" V 5766 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 6050 2250 50  0001 L CNN
+F 3 "~" H 6000 2450 50  0001 C CNN
+	1    6000 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 2100
+Wire Wire Line
+	4100 2100 5700 2100
+Wire Wire Line
+	5700 2100 5700 2500
+Wire Wire Line
+	5700 2500 5850 2500
+Wire Wire Line
+	4450 2850 4450 3100
+Wire Wire Line
+	4450 3100 6450 3100
+Wire Wire Line
+	6450 2500 6250 2500
+Wire Wire Line
+	6250 2500 6250 2800
+Wire Wire Line
+	6250 2800 5600 2800
+Wire Wire Line
+	5600 2800 5600 2400
+Wire Wire Line
+	5600 2400 4400 2400
+Wire Wire Line
+	4400 2400 4400 2550
+Connection ~ 6250 2500
+Wire Wire Line
+	6250 2500 6150 2500
+$Comp
+L Device:R R2
+U 1 1 60CBC008
+P 6450 2800
+F 0 "R2" V 6243 2800 50  0000 C CNN
+F 1 "100k R" V 6334 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P7.62mm_Vertical" V 6380 2800 50  0001 C CNN
+F 3 "~" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2500 6450 2650
+Wire Wire Line
+	6450 2950 6450 3100
+Wire Wire Line
+	4450 2550 4400 2550
+$EndSCHEMATC

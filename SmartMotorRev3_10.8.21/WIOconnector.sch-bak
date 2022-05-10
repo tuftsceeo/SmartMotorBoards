@@ -1,0 +1,49 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 61625A5C
+P 4350 2700
+F 0 "J?" H 4458 3781 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 4458 3690 50  0000 C CNN
+F 2 "" H 4350 2700 50  0001 C CNN
+F 3 "~" H 4350 2700 50  0001 C CNN
+	1    4350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 61626C2B
+P 4750 2700
+F 0 "J?" H 4858 3781 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 4858 3690 50  0000 C CNN
+F 2 "" H 4750 2700 50  0001 C CNN
+F 3 "~" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61628496
+P 5450 1900
+F 0 "J?" H 5558 2181 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5558 2090 50  0000 C CNN
+F 2 "" H 5450 1900 50  0001 C CNN
+F 3 "~" H 5450 1900 50  0001 C CNN
+	1    5450 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

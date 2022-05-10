@@ -1,0 +1,114 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 6160D331
+P 4550 3150
+F 0 "J1" H 4658 3431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4658 3340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4550 3150 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6160DA84
+P 4950 3800
+F 0 "D1" V 4989 3682 50  0000 R CNN
+F 1 "LED" V 4898 3682 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 3800 50  0001 C CNN
+F 3 "~" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6160EAC5
+P 4950 3450
+F 0 "R1" H 5020 3496 50  0000 L CNN
+F 1 "R" H 5020 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4880 3450 50  0001 C CNN
+F 3 "~" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 61610CD2
+P 5400 3200
+F 0 "SW1" H 5400 3685 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 5400 3594 50  0000 C CNN
+F 2 "Button_Switch_THT:DPDT Latching Push Button" H 5400 3400 50  0001 C CNN
+F 3 "~" H 5400 3400 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3050 5150 3050
+Wire Wire Line
+	5200 3050 5200 3000
+Wire Wire Line
+	5150 3050 5150 3400
+Wire Wire Line
+	5150 3400 5200 3400
+Connection ~ 5150 3050
+Wire Wire Line
+	5150 3050 5200 3050
+Wire Wire Line
+	5600 3100 5850 3100
+Wire Wire Line
+	5850 3100 5850 2600
+Wire Wire Line
+	5850 2600 4250 2600
+Wire Wire Line
+	4250 2600 4250 3150
+Wire Wire Line
+	4250 3150 4750 3150
+Wire Wire Line
+	5600 3500 5850 3500
+Wire Wire Line
+	5850 3500 5850 3100
+Connection ~ 5850 3100
+$Comp
+L power:GND #PWR0101
+U 1 1 6161294C
+P 4750 3350
+F 0 "#PWR0101" H 4750 3100 50  0001 C CNN
+F 1 "GND" H 4755 3177 50  0000 C CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3250 4950 3250
+Wire Wire Line
+	4950 3250 4950 3300
+Wire Wire Line
+	4950 3600 4950 3650
+$Comp
+L power:GND #PWR0102
+U 1 1 61615303
+P 4950 3950
+F 0 "#PWR0102" H 4950 3700 50  0001 C CNN
+F 1 "GND" H 4955 3777 50  0000 C CNN
+F 2 "" H 4950 3950 50  0001 C CNN
+F 3 "" H 4950 3950 50  0001 C CNN
+	1    4950 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
